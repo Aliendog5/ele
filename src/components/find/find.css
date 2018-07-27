@@ -1,0 +1,134 @@
+.parts{
+    background: #FFF;
+}
+.parts ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.parts ul li{
+    width: 3.75rem;
+    height: 1.6rem;border: solid 1px red;
+}
+.parts ul li img{
+    width: .9rem;
+    height: .9rem;
+}
+/* .parts ul li:nth-child(1){
+    width: 3.75rem;
+    height: 3.2rem;
+} */
+.padd{
+    padding: .44rem .22rem .12rem .32rem;
+}
+
+/*  */
+.tit{
+    width: 100%;
+    height: .82rem;
+    font-size: .4rem;
+    text-align: center;
+    margin-top: .2rem;
+    padding-top: .2rem;
+    font-weight: bold;
+}
+.jinbi{
+    color: #999;
+    text-align: center;
+    margin: 0 0 .3rem 0;
+}
+.suggest{
+    width: 100%;
+    background: #FFF;
+}
+.suggest ul{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+}
+.suggest ul li{
+    width: 2.22rem;
+    margin-right: .12rem;
+}
+.ss{
+    font-size: .25rem;
+    background: #000;
+    color: aliceblue;
+    position: absolute;
+}
+.suggest ul li img{
+    width: 2.22rem;
+    height: 2.2rem;
+}
+.reddd{
+    color: #ff5339;font-size: .26rem;
+}
+.huanianx{
+    text-decoration-line: line-through;
+}
+.lookmore{
+    width: 100%;
+    text-align: center;
+    font-size: .34rem;
+    color: #999;
+    padding: .2rem;
+    background: #fff;
+}
+.listlift{
+    position: relative;
+}
+.listlift li:nth-child(1){
+    width: 3.75rem;
+    height: 3.2rem;
+    padding: .44rem .22rem 0.12rem .32rem;
+    position: absolute;
+}
+.listlift li:nth-child(1) h2{
+    color: rgb(232, 143, 40);
+    line-height: 1.2;
+    font-size: .426667rem;
+    margin-bottom: .16rem;
+    margin-bottom: 1.6vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listlift li:nth-child(1) p{
+    line-height: 1.2;
+    font-size: .32rem;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listlift li:nth-child(1) img{
+    position: absolute;
+    right: .22rem;
+    bottom:0.12rem;
+}
+.listlift li:nth-child(2), .listlift li:nth-child(3){
+    padding: .2rem 0;
+    padding:0 .15rem ;
+    margin-left: 3.75rem;
+}
+.listlift li:nth-child(2) h2, .listlift li:nth-child(3) h2{
+    color: rgb(245, 120, 93);
+    line-height: 1.2;
+    font-size: .3rem;
+    /* margin-bottom: 1.6vw; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listlift li:nth-child(2) p, .listlift li:nth-child(3) p{
+    line-height: 1.2;
+    font-size: .2rem;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listlift li:nth-child(2) img, .listlift li:nth-child(3) img{
+    position: relative;
+    right:-2.38rem;
+    bottom:0.12rem;
+}

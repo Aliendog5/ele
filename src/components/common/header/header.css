@@ -1,0 +1,27 @@
+#header{
+    background: linear-gradient(90deg,#0af,#0085ff);
+    color: #fff;
+    width: 100%;
+    height: .88rem;
+    font-size: .35rem;
+    font-weight: bold;
+    padding: .2rem .2rem 0 .2rem;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+#header>ul{
+    width: 100%;
+    height: 100%;
+}
+#header>ul>li{
+    line-height: .62rem;
+}
+#header>ul>.place{
+    width: 3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

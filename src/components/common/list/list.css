@@ -1,0 +1,68 @@
+
+#list{
+    width: 100%;
+    height: 100%;
+    padding: .2rem;
+}
+.index-shopInfo,.index-activityWrap{
+    height: 100%;
+    display: flex;
+}
+.pr{
+    display: flex;
+}
+.index-activityWrap {
+    padding-left: 1.5rem;
+}
+#list .img img{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: .2rem;
+    margin-bottom: .2rem;
+}
+.shop{
+    line-height: .47rem;
+    color: #666;
+    font-size: .26rem;
+}
+.shop h3{
+    line-height: .4rem;
+    color: #333;
+    font-size: .34rem;
+}
+.index-activityWrap{
+    line-height: .47rem;
+    font-size: .24rem;
+    color: #666;
+}
+.greenn{
+    background: rgb(112, 188, 70);
+    color: #fff;
+    margin-right: .2rem;
+}
+.redd{
+    background: rgb(240, 115, 115);
+    color: #fff;  
+    margin-right: .2rem;      
+}
+.ac{
+    padding-left: 1rem;
+}
+.km{
+    padding-left: .9rem;
+}
+#list ul li{
+    border-top: 1px solid #ddd;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+}
+.shu{
+    color:#ddd;
+}
+.nowrap{
+    /* width: 3.9rem; */
+    width: 3.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

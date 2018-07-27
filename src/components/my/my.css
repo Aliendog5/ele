@@ -1,0 +1,15 @@
+
+section:nth-child(1){
+    background:linear-gradient(90deg,#0af,#0085ff);
+    color: #fff;
+}
+.one{display: flex;padding: .5rem .3rem;justify-content: space-between;}
+.one div:nth-child(2){width: 5.14rem;}
+.one h2{
+    font-size: .45rem;font-weight: bold;
+    margin-bottom: .2rem;
+    margin-top: .15rem;
+}
+.one img{border-radius: 100%;}
+.one div:nth-child(2){margin-left: .36rem;}
+.one div:nth-child(3){margin-top: .35rem;}
